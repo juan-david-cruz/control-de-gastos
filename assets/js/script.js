@@ -69,7 +69,7 @@ function clickActualizar(posicion) {
     listaDetallesGastos[posicion] = document.getElementById('detalleGasto').value;
     listaValoresGastos[posicion] = document.getElementById('valorGasto').value;
 
-    if (listaValoresGastos > 150) {
+    if (listaValoresGastos[posicion] > 150) {
         alert("Tu gasto es mayor a 150 USD");
     }
 
